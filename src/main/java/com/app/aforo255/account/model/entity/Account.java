@@ -23,7 +23,7 @@ public class Account implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "id_account")
+	@Column(name = "accountId")
 	private Integer IdAccount;
 	@Column(name = "total_amount")
 	private double TotalAmount;
